@@ -1,0 +1,45 @@
+{
+  "name": "hyperstrip",
+  "version": "0.1.0",
+  "description": "Status line plugin for Hyper",
+  "main": "dist/hyperstrip.js",
+  "files": [
+    "dist/hyperstrip.js"
+  ],
+  "keywords": [
+    "hyper",
+    "hyper.app",
+    "hyperterm",
+    "hyper-plugin",
+    "hyperstrip",
+    "hyperline"
+  ],
+  "dependencies": {
+    "styled-jsx": "^3.1.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^3.1.4",
+    "webpack": "2.2.0-rc.1",
+    "webpack-node-externals": "^1.3.3"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hetima/hyperstrip.git"
+  },
+  "author": "hetima <hetima@hetima.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hetima/hyperstrip/issues"
+  },
+  "homepage": "https://github.com/hetima/hyperstrip"
+}

@@ -1,3 +1,8 @@
+dist
+.vscode
+.DS_STORE
+.idea
+
 # Logs
 logs
 *.log
